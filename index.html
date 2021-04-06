@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b94857a29d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Londrina+Solid:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+    <title>Hoja de vida</title>
+    <style>
+        body{
+            font-family: 'Londrina Solid', cursive;
+        }
+
+        
+        .header{ 
+            background: #FF637D;
+            height: 200px;
+        }
+
+        .nombre{ 
+            background:white;
+            color: black;
+            width: 400px;
+            border-radius: 20px;
+            position: relative;
+            top: 170px;
+            left: 350px;
+        }
+
+        .contacto{
+            margin-top: 60px;
+            font-size: 20px;
+            border-bottom: #FF637D solid 2px;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        .perfil{ 
+            margin-bottom: 30px;
+        }
+
+        .perfil p{ 
+            padding-left: 40px;
+        }
+
+        .skills{ 
+            font-size: 17px;
+        }
+
+
+        .skill-container{ 
+            padding-left: 40px;
+        }
+
+        i{ 
+            color: #FF637D;
+        }
+        
+        .skill-text{
+            position: relative;
+            transform: rotate(-90deg);
+            background: #FF637D;
+            color: aliceblue;
+            letter-spacing: 2px;
+        }
+
+        .frontend{
+            top: -80px;
+            right: 54px;
+            width: 140px;
+        }
+
+        .backend{
+            top: -80px;
+            right: 45px;
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container header">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="header">
+                    <div class="nombre text-center">
+                        <h4 class="py-1 m-0">Juan Pablo Morales Rincón</h4>
+                        <p class="text-muted my-0 py-0">Fullstack web developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="contacto text-center">
+                    Envigado, Antioquia, Colombia. 055421  ||  +57 319 6512702  || juanpablo.moralesrincon@gmail.com
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="perfil">
+                    <h3><i class="fas fa-id-card-alt"></i> Perfil</h3>
+                    <p class="text-justify">Soy un programador actualmente Fullstack interesado en el desarrollo web, principalmente en el desarrollo Frontend. Un apasionado del
+                        aprendizaje y del mundo de la computación en general. Soy una persona
+                        responsable, que valora mucho el trabajo en equipo y el avance de éste en
+                        general. Un apasionado por los nuevos retos y por el crecimiento profesional y personal. Creo fírmemente en que puedo aprender lo que sea que me proponga, o
+                        lo que necesite para crecer en ambos ámbitos profesional y personal, creo fírmemente en la
+                        autoregulación del conocimiento, cosa que he aplicado desde hace
+                        varios años.
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="perfil">
+                    <h3><i class="fas fa-robot"></i> Habilidades</h3>
+                    <div class="skill-container">
+                        <p class="mt-3 mb-0 py-0 skills">Html</p>
+                        <p class="my-0 py-0 skills">Css</p>
+                        <p class="my-0 py-0 skills">Javascript</p>
+                        <p class="ml-4 my-0 py-0">VueJs (Vuex - VueRouter - BootstrapVue)</p>
+                        <p class="ml-4 my-0 py-0">JQuery</p>
+                        <div class="skill-text frontend text-center">Frontend</div>
+                    </div>
+                    <div class="skill-container">
+                        <p class="my-0 py-0 skills">PHP</p> 
+                        <p class="ml-4">Yii2 Framework</p>
+                        <p class="my-0 py-0 skills">SQL</p>
+                        <p class="ml-4">MySql</p>
+                        <div class="skill-text backend text-center">Backend</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="experience">
+                    <div class="experience-title">
+                        <h3><i class="fas fa-id-card-alt"></i> Experiencia:</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body> 
+</html>
