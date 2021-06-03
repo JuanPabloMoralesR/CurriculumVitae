@@ -1,189 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/b94857a29d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Londrina+Solid:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b94857a29d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Londrina+Solid:wght@300&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
     <title>Hoja de vida</title>
     <style>
-        body{
-            font-family: 'Londrina Solid', cursive;
-        }
+      body {
+        font-family: "Londrina Solid", cursive;
+      }
 
-        
-        .header{ 
-            background: #FF637D;
-            height: 200px;
-        }
+      .header {
+        background: #ff637d;
+        height: 200px;
+      }
 
-        .nombre{ 
-            background:white;
-            color: black;
-            width: 400px;
-            border-radius: 20px;
-            position: relative;
-            top: 170px;
-            left: 350px;
-        }
+      .nombre {
+        background: white;
+        color: black;
+        width: 400px;
+        border-radius: 20px;
+        position: relative;
+        top: 170px;
+        left: 350px;
+      }
 
-        .contacto{
-            margin-top: 60px;
-            font-size: 20px;
-            border-bottom: #FF637D solid 2px;
-            padding-bottom: 20px;
-            margin-bottom: 20px;
-        }
+      .contacto {
+        margin-top: 60px;
+        font-size: 20px;
+        border-bottom: #ff637d solid 2px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+      }
 
-        .perfil{ 
-            margin-bottom: 10px;
-        }
+      .perfil {
+        margin-bottom: 10px;
+      }
 
-        .perfil p{ 
-            padding-left: 40px;
-        }
+      .perfil p {
+        padding-left: 40px;
+      }
 
-        .skills{ 
-            font-size: 17px;
-        }
+      .skills {
+        font-size: 17px;
+      }
 
+      .skill-container {
+        padding-left: 40px;
+      }
 
-        .skill-container{ 
-            padding-left: 40px;
-        }
+      i {
+        color: #ff637d;
+      }
 
-        i{ 
-            color: #FF637D;
-        }
-        
-        .skill-text{
-            position: relative;
-            transform: rotate(-90deg);
-            background: #FF637D;
-            color: aliceblue;
-            letter-spacing: 2px;
-        }
+      .skill-text {
+        position: relative;
+        transform: rotate(-90deg);
+        background: #ff637d;
+        color: aliceblue;
+        letter-spacing: 2px;
+      }
 
-        .frontend{
-            top: -80px;
-            right: 54px;
-            width: 140px;
-        }
+      .frontend {
+        top: -80px;
+        right: 54px;
+        width: 140px;
+      }
 
-        .backend{
-            top: -80px;
-            right: 45px;
-            width: 120px;
-        }
+      .backend {
+        top: -80px;
+        right: 45px;
+        width: 120px;
+      }
 
-        .work-experience-container{
-            margin-top: 40px;
-            padding: 1.5em;
-            border-left: #FF637D solid 6px;
-            margin-left: 12px;
-        }
+      .work-experience-container {
+        margin-top: 40px;
+        padding: 1.5em;
+        border-left: #ff637d solid 6px;
+        margin-left: 12px;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container header">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="header">
-                    <div class="nombre text-center">
-                        <h4 class="py-1 m-0">Juan Pablo Morales Rincón</h4>
-                        <p class="text-muted my-0 py-0">Fullstack web developer</p>
-                    </div>
-                </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="header">
+            <div class="nombre text-center">
+              <h4 class="py-1 m-0">Juan Pablo Morales Rincón</h4>
+              <p class="text-muted my-0 py-0">Fullstack web developer</p>
             </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="contacto text-center">
-                    <div class="row">
-                        <div class="col-md-3 text-center">
-                            <i class="fas fa-house-user"></i> <p>Envigado, Antioquia</p> 
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <i class="ml-2 fas fa-mobile"></i> <p>+57 319 6512702</p>  
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <i class="ml-2 fas fa-envelope"></i> <p>juanpablo.moralesrincon@gmail.com </p> 
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <i class="ml-2 fab fa-github-square"></i> <p>/JuanPabloMoralesR</p> 
-                        </div>
-                    </div>
-                </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="contacto text-center">
+            <div class="row">
+              <div class="col-md-3 text-center">
+                <i class="fas fa-house-user"></i>
+                <p>Envigado, Antioquia</p>
+              </div>
+              <div class="col-md-3 text-center">
+                <i class="ml-2 fas fa-mobile"></i>
+                <p>+57 319 6512702</p>
+              </div>
+              <div class="col-md-3 text-center">
+                <i class="ml-2 fas fa-envelope"></i>
+                <p>juanpablo.moralesrincon@gmail.com</p>
+              </div>
+              <div class="col-md-3 text-center">
+                <i class="ml-2 fab fa-github-square"></i>
+                <p>/JuanPabloMoralesR</p>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="perfil">
-                    <h3><i class="fas fa-id-card-alt"></i> Profile</h3>
-                    <p class="text-justify">Web developer interested mainly in frontend development, responsive interface design, 
-                        transition from design/ Layout to HTML / CSS code. With knowledge in CSS frameworks such as Material UI, Bootstrap and Tailwind. 
-                        Proficent in Vanilla JS but also MV * frameworks like VueJs with some of it most important libraries like VueRouter, 
-                        Vuex, Vuelidate, BootstrapVue, among others. Passionate about learning, teamwork and responsibility.
-                        </p>
-                </div>
-            </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="perfil">
+            <h3><i class="fas fa-id-card-alt"></i> Profile</h3>
+            <p class="text-justify">
+              Fullstack developer, adept with responsive graphical interface
+              design and the transition process between design/Layout and
+              HTML/CSS code. With knowledge of CSS frameworks such as Material
+              UI, Bootstrap and Tailwind. Proficent with both Vanilla JS and MV*
+              frameworks like VueJs as well as some of its most important
+              libraries like VueRouter, Vuex, Vuelidate, BootstrapVue, among
+              others. Passionate about learning, teamwork and responsibility.
+              Also familiar with some Backend and Database technologies such as
+              PHP and MySql respectively. Knowledge of versioning technologies
+              such as Git or SVN.
+            </p>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="perfil">
-                    <h3><i class="fas fa-robot"></i> Skills</h3>
-                    <div class="skill-container">
-                        <p class="mt-3 mb-0 py-0 skills">Html</p>
-                        <p class="my-0 py-0 skills">Css</p>
-                        <p class="my-0 py-0 skills">Javascript</p>
-                        <p class="ml-4 my-0 py-0">VueJs (Vuex - VueRouter - BootstrapVue)</p>
-                        <p class="ml-4 my-0 py-0">JQuery</p>
-                        <div class="skill-text frontend text-center">Frontend</div>
-                    </div>
-                    <div class="skill-container">
-                        <p class="my-0 py-0 skills">PHP</p> 
-                        <p class="ml-4">Yii2 Framework</p>
-                        <p class="my-0 py-0 skills">SQL</p>
-                        <p class="ml-4">MySql</p>
-                        <div class="skill-text backend text-center">Backend</div>
-                    </div>
-                </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="perfil">
+            <h3><i class="fas fa-robot"></i> Skills</h3>
+            <div class="skill-container">
+              <p class="mt-3 mb-0 py-0 skills">Html</p>
+              <p class="my-0 py-0 skills">Css</p>
+              <p class="my-0 py-0 skills">Javascript</p>
+              <p class="ml-4 my-0 py-0">
+                VueJs (Vuex - VueRouter - BootstrapVue)
+              </p>
+              <p class="ml-4 my-0 py-0">JQuery</p>
+              <div class="skill-text frontend text-center">Frontend</div>
             </div>
-            <div class="col-md-8">
-                <div class="experience">
-                    <div class="experience-title">
-                        <h3><i class="fas fa-id-card-alt"></i> Experience:</h3>
-                        <div class="work-experience-container">
-                            <div class="work-box">
-                                <h5 class="my-0 py-0">Fullstack developer at Inversiones Winred SAS</h5>
-                                <small class="text-muted py-0 m-0">July 2020 - Now</small>
-                                <hr>
-                                <ul>
-                                    <li>In charge of the maintenance and updating of current admin and distributors projects. </li>
-                                    <li>Layout, design and functionality of new modules for end users  (Backend y  frontend). </li>
-                                    <li>SQL optimization to improve response times in crucial modules. </li>
-                                </ul>
-                            </div>
-                            <div class="work-box mt-5">
-                                <h5 class="my-0 py-0">Frontend developer - Orders and shops catalogs web site.</h5>
-                                <small class="text-muted py-0 m-0">May 2020 - July 2020</small>
-                                <hr>
-                                <ul>
-                                    <li>
-                                        In charge of the layout and design of the entire website and its components in VueJS: Landing page, catalogs, admin panels, stores etc. 
-                                    </li>
-                                    <li>
-                                        Consumption of the API through the axios library and business logic applied to the user interface. 
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="skill-container">
+              <p class="my-0 py-0 skills">PHP</p>
+              <p class="ml-4">Yii2 Framework</p>
+              <p class="my-0 py-0 skills">SQL</p>
+              <p class="ml-4">MySql</p>
+              <div class="skill-text backend text-center">Backend</div>
             </div>
+          </div>
         </div>
+        <div class="col-md-8">
+          <div class="experience">
+            <div class="experience-title">
+              <h3><i class="fas fa-id-card-alt"></i> Experience:</h3>
+              <div class="work-experience-container">
+                <div class="work-box">
+                  <h5 class="my-0 py-0">
+                    Fullstack developer at Inversiones Winred SAS
+                  </h5>
+                  <small class="text-muted py-0 m-0">July 2020 - Now</small>
+                  <hr />
+                  <ul>
+                    <li>
+                      In charge of the maintenance and updating of current admin
+                      and distributors projects.
+                    </li>
+                    <li>
+                      Layout, design and functionality of new modules for end
+                      users (Backend and frontend).
+                    </li>
+                    <li>
+                      SQL optimization to improve response times in crucial
+                      modules.
+                    </li>
+                  </ul>
+                </div>
+                <div class="work-box mt-5">
+                  <h5 class="my-0 py-0">
+                    Frontend developer - Orders and shops catalogs web site.
+                  </h5>
+                  <small class="text-muted py-0 m-0"
+                    >May 2020 - July 2020</small
+                  >
+                  <hr />
+                  <ul>
+                    <li>
+                      In charge of the layout and design of the entire website
+                      and its components in VueJS: Landing page, catalogs, admin
+                      panels, stores etc.
+                    </li>
+                    <li>
+                      Consumption of the API through the axios library and
+                      business logic applied to the user interface.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body> 
+  </body>
 </html>
